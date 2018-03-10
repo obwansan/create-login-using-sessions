@@ -1,7 +1,6 @@
 <?php
 
 session_start();
-//var_dump($_SESSION);
 
 if ($_SESSION['loggedIn']) {
     header('Location: account.php');
@@ -20,3 +19,4 @@ if ($_SESSION['loggedIn']) {
     <input type="submit">
 </form>
 
+<!-- How does the HTML work without the HTML and body tags etc? -->
