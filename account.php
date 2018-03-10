@@ -9,7 +9,7 @@ $correctPassword = 'turnip204';
 $usernameLength = strlen($username);
 $passwordLength = strlen($password);
 
-function validateInput($username,  $password ) {
+function validateInput($username,  $password) {
 
     $errorMessage = '';
 
