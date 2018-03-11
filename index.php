@@ -20,3 +20,7 @@ if ($_SESSION['loggedIn']) {
 </form>
 
 <!-- How does the HTML work without the HTML and body tags etc? -->
+
+<!-- How do index.php and account.php interact if you're not rediected
+to account.php until you've logged in? Form data is sent to account.php by action="".
+ Must be in same directory?-->
